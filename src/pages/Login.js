@@ -15,7 +15,7 @@ function Login() {
         setEmail(e.target.value);
     }
 
-    const passportFieldHandler = e => {
+    const passwordFieldHandler = e => {
         setPassword(e.target.value);
     }
 
@@ -51,7 +51,7 @@ function Login() {
                                             </div>
 
                                             <div className="form-outline mb-4">
-                                                <input onBlur={passportFieldHandler} type="password" id="form3Example4cg" className="form-control" required />
+                                                <input onBlur={passwordFieldHandler} type="password" id="form3Example4cg" className="form-control" required />
                                                 <label className="form-label" htmlFor="form3Example4cg">Password</label>
                                             </div>
 
